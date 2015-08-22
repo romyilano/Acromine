@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAC54F91B893CA100D4D151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC54F81B893CA100D4D151 /* main.m */; };
+		ECAC54FC1B893CA100D4D151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC54FB1B893CA100D4D151 /* AppDelegate.m */; };
+		ECAC55041B893CA100D4D151 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAC55031B893CA100D4D151 /* Images.xcassets */; };
+		ECAC55071B893CA100D4D151 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECAC55051B893CA100D4D151 /* LaunchScreen.xib */; };
+		ECAC55131B893CA100D4D151 /* Acromine_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC55121B893CA100D4D151 /* Acromine_SampleTests.m */; };
+		ECAC55211B893CCE00D4D151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAC551C1B893CCE00D4D151 /* Main.storyboard */; };
+		ECAC55221B893CCE00D4D151 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC551E1B893CCE00D4D151 /* Constants.m */; };
+		ECAC55231B893CCE00D4D151 /* AcromineDesignUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC55201B893CCE00D4D151 /* AcromineDesignUtility.m */; };
+		ECAC55271B893CE800D4D151 /* AcroResult.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC55261B893CE800D4D151 /* AcroResult.m */; };
+		ECAC552D1B893CF400D4D151 /* AcromineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC552A1B893CF400D4D151 /* AcromineManager.m */; };
+		ECAC552E1B893CF400D4D151 /* AcromineNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC552C1B893CF400D4D151 /* AcromineNetworkManager.m */; };
+		ECAC55361B893D1400D4D151 /* AcroMineSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC55311B893D1400D4D151 /* AcroMineSearchViewController.m */; };
+		ECAC55371B893D1400D4D151 /* AcroMineVariationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC55331B893D1400D4D151 /* AcroMineVariationsViewController.m */; };
+		ECAC55381B893D1400D4D151 /* AcromineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC55351B893D1400D4D151 /* AcromineTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECAC550D1B893CA100D4D151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAC54EB1B893CA100D4D151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAC54F21B893CA100D4D151;
+			remoteInfo = "Acromine Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECAC54F31B893CA100D4D151 /* Acromine Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acromine Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAC54F71B893CA100D4D151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAC54F81B893CA100D4D151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECAC54FA1B893CA100D4D151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECAC54FB1B893CA100D4D151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECAC55031B893CA100D4D151 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECAC55061B893CA100D4D151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECAC550C1B893CA100D4D151 /* Acromine SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acromine SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAC55111B893CA100D4D151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAC55121B893CA100D4D151 /* Acromine_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acromine_SampleTests.m; sourceTree = "<group>"; };
+		ECAC551C1B893CCE00D4D151 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ECAC551D1B893CCE00D4D151 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		ECAC551E1B893CCE00D4D151 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		ECAC551F1B893CCE00D4D151 /* AcromineDesignUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcromineDesignUtility.h; sourceTree = "<group>"; };
+		ECAC55201B893CCE00D4D151 /* AcromineDesignUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcromineDesignUtility.m; sourceTree = "<group>"; };
+		ECAC55251B893CE800D4D151 /* AcroResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcroResult.h; sourceTree = "<group>"; };
+		ECAC55261B893CE800D4D151 /* AcroResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcroResult.m; sourceTree = "<group>"; };
+		ECAC55291B893CF400D4D151 /* AcromineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcromineManager.h; sourceTree = "<group>"; };
+		ECAC552A1B893CF400D4D151 /* AcromineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcromineManager.m; sourceTree = "<group>"; };
+		ECAC552B1B893CF400D4D151 /* AcromineNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcromineNetworkManager.h; sourceTree = "<group>"; };
+		ECAC552C1B893CF400D4D151 /* AcromineNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcromineNetworkManager.m; sourceTree = "<group>"; };
+		ECAC55301B893D1400D4D151 /* AcroMineSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcroMineSearchViewController.h; sourceTree = "<group>"; };
+		ECAC55311B893D1400D4D151 /* AcroMineSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcroMineSearchViewController.m; sourceTree = "<group>"; };
+		ECAC55321B893D1400D4D151 /* AcroMineVariationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcroMineVariationsViewController.h; sourceTree = "<group>"; };
+		ECAC55331B893D1400D4D151 /* AcroMineVariationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcroMineVariationsViewController.m; sourceTree = "<group>"; };
+		ECAC55341B893D1400D4D151 /* AcromineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcromineTableViewCell.h; sourceTree = "<group>"; };
+		ECAC55351B893D1400D4D151 /* AcromineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcromineTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAC54F01B893CA100D4D151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAC55091B893CA100D4D151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAC54EA1B893CA100D4D151 = {
+			isa = PBXGroup;
+			children = (
+				ECAC54F51B893CA100D4D151 /* Acromine Sample */,
+				ECAC550F1B893CA100D4D151 /* Acromine SampleTests */,
+				ECAC54F41B893CA100D4D151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAC54F41B893CA100D4D151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC54F31B893CA100D4D151 /* Acromine Sample.app */,
+				ECAC550C1B893CA100D4D151 /* Acromine SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAC54F51B893CA100D4D151 /* Acromine Sample */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC54FA1B893CA100D4D151 /* AppDelegate.h */,
+				ECAC54FB1B893CA100D4D151 /* AppDelegate.m */,
+				ECAC55391B893D1A00D4D151 /* ViewControllers */,
+				ECAC552F1B893D0B00D4D151 /* Controllers */,
+				ECAC55281B893CEB00D4D151 /* Model */,
+				ECAC55241B893CD800D4D151 /* Design/Graphics */,
+				ECAC54F61B893CA100D4D151 /* Supporting Files */,
+			);
+			path = "Acromine Sample";
+			sourceTree = "<group>";
+		};
+		ECAC54F61B893CA100D4D151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC54F71B893CA100D4D151 /* Info.plist */,
+				ECAC54F81B893CA100D4D151 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECAC550F1B893CA100D4D151 /* Acromine SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC55121B893CA100D4D151 /* Acromine_SampleTests.m */,
+				ECAC55101B893CA100D4D151 /* Supporting Files */,
+			);
+			path = "Acromine SampleTests";
+			sourceTree = "<group>";
+		};
+		ECAC55101B893CA100D4D151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC55111B893CA100D4D151 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECAC55241B893CD800D4D151 /* Design/Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC55031B893CA100D4D151 /* Images.xcassets */,
+				ECAC551C1B893CCE00D4D151 /* Main.storyboard */,
+				ECAC551D1B893CCE00D4D151 /* Constants.h */,
+				ECAC551E1B893CCE00D4D151 /* Constants.m */,
+				ECAC551F1B893CCE00D4D151 /* AcromineDesignUtility.h */,
+				ECAC55201B893CCE00D4D151 /* AcromineDesignUtility.m */,
+				ECAC55051B893CA100D4D151 /* LaunchScreen.xib */,
+			);
+			name = Design/Graphics;
+			sourceTree = "<group>";
+		};
+		ECAC55281B893CEB00D4D151 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC55251B893CE800D4D151 /* AcroResult.h */,
+				ECAC55261B893CE800D4D151 /* AcroResult.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ECAC552F1B893D0B00D4D151 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC55291B893CF400D4D151 /* AcromineManager.h */,
+				ECAC552A1B893CF400D4D151 /* AcromineManager.m */,
+				ECAC552B1B893CF400D4D151 /* AcromineNetworkManager.h */,
+				ECAC552C1B893CF400D4D151 /* AcromineNetworkManager.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ECAC55391B893D1A00D4D151 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC55301B893D1400D4D151 /* AcroMineSearchViewController.h */,
+				ECAC55311B893D1400D4D151 /* AcroMineSearchViewController.m */,
+				ECAC55321B893D1400D4D151 /* AcroMineVariationsViewController.h */,
+				ECAC55331B893D1400D4D151 /* AcroMineVariationsViewController.m */,
+				ECAC55341B893D1400D4D151 /* AcromineTableViewCell.h */,
+				ECAC55351B893D1400D4D151 /* AcromineTableViewCell.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAC54F21B893CA100D4D151 /* Acromine Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAC55161B893CA100D4D151 /* Build configuration list for PBXNativeTarget "Acromine Sample" */;
+			buildPhases = (
+				ECAC54EF1B893CA100D4D151 /* Sources */,
+				ECAC54F01B893CA100D4D151 /* Frameworks */,
+				ECAC54F11B893CA100D4D151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acromine Sample";
+			productName = "Acromine Sample";
+			productReference = ECAC54F31B893CA100D4D151 /* Acromine Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECAC550B1B893CA100D4D151 /* Acromine SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAC55191B893CA100D4D151 /* Build configuration list for PBXNativeTarget "Acromine SampleTests" */;
+			buildPhases = (
+				ECAC55081B893CA100D4D151 /* Sources */,
+				ECAC55091B893CA100D4D151 /* Frameworks */,
+				ECAC550A1B893CA100D4D151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAC550E1B893CA100D4D151 /* PBXTargetDependency */,
+			);
+			name = "Acromine SampleTests";
+			productName = "Acromine SampleTests";
+			productReference = ECAC550C1B893CA100D4D151 /* Acromine SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAC54EB1B893CA100D4D151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Romy;
+				TargetAttributes = {
+					ECAC54F21B893CA100D4D151 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 6K559Y986U;
+					};
+					ECAC550B1B893CA100D4D151 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = ECAC54F21B893CA100D4D151;
+					};
+				};
+			};
+			buildConfigurationList = ECAC54EE1B893CA100D4D151 /* Build configuration list for PBXProject "Acromine Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAC54EA1B893CA100D4D151;
+			productRefGroup = ECAC54F41B893CA100D4D151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAC54F21B893CA100D4D151 /* Acromine Sample */,
+				ECAC550B1B893CA100D4D151 /* Acromine SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAC54F11B893CA100D4D151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAC55211B893CCE00D4D151 /* Main.storyboard in Resources */,
+				ECAC55071B893CA100D4D151 /* LaunchScreen.xib in Resources */,
+				ECAC55041B893CA100D4D151 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAC550A1B893CA100D4D151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAC54EF1B893CA100D4D151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAC552E1B893CF400D4D151 /* AcromineNetworkManager.m in Sources */,
+				ECAC55371B893D1400D4D151 /* AcroMineVariationsViewController.m in Sources */,
+				ECAC54FC1B893CA100D4D151 /* AppDelegate.m in Sources */,
+				ECAC55381B893D1400D4D151 /* AcromineTableViewCell.m in Sources */,
+				ECAC54F91B893CA100D4D151 /* main.m in Sources */,
+				ECAC55231B893CCE00D4D151 /* AcromineDesignUtility.m in Sources */,
+				ECAC55361B893D1400D4D151 /* AcroMineSearchViewController.m in Sources */,
+				ECAC552D1B893CF400D4D151 /* AcromineManager.m in Sources */,
+				ECAC55271B893CE800D4D151 /* AcroResult.m in Sources */,
+				ECAC55221B893CCE00D4D151 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAC55081B893CA100D4D151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAC55131B893CA100D4D151 /* Acromine_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECAC550E1B893CA100D4D151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAC54F21B893CA100D4D151 /* Acromine Sample */;
+			targetProxy = ECAC550D1B893CA100D4D151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECAC55051B893CA100D4D151 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAC55061B893CA100D4D151 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECAC55141B893CA100D4D151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECAC55151B893CA100D4D151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAC55171B893CA100D4D151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Acromine Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECAC55181B893CA100D4D151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Acromine Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECAC551A1B893CA100D4D151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acromine SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acromine Sample.app/Acromine Sample";
+			};
+			name = Debug;
+		};
+		ECAC551B1B893CA100D4D151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acromine SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acromine Sample.app/Acromine Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAC54EE1B893CA100D4D151 /* Build configuration list for PBXProject "Acromine Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAC55141B893CA100D4D151 /* Debug */,
+				ECAC55151B893CA100D4D151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAC55161B893CA100D4D151 /* Build configuration list for PBXNativeTarget "Acromine Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAC55171B893CA100D4D151 /* Debug */,
+				ECAC55181B893CA100D4D151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECAC55191B893CA100D4D151 /* Build configuration list for PBXNativeTarget "Acromine SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAC551A1B893CA100D4D151 /* Debug */,
+				ECAC551B1B893CA100D4D151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAC54EB1B893CA100D4D151 /* Project object */;
+}
