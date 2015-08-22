@@ -1,11 +1,3 @@
-//
-//  AcroMineVariationsViewController.m
-//  RomyIlano_Macys
-//
-//  Created by Romy on 8/21/15.
-//  Copyright (c) 2015 Romy. All rights reserved.
-//
-
 #import "AcroMineVariationsViewController.h"
 #import "AcromineManager.h"
 #import "AcromineDesignutility.h"
@@ -18,11 +10,16 @@ static NSString *VariationCellIdentifier = @"VariationCell";
 
 @property (strong, nonatomic) NSArray *variations;
 
+// custom back bar button so that we don't have to include the root view controller's length
+// title in the back button text
+- (void)goBack:(id)sender;
+
 @end
 
 @implementation AcroMineVariationsViewController
 
 #pragma mark - Accessors
+
 - (void)setAcroResult:(AcroResult *)acroResult {
     if (![_acroResult isEqual:acroResult]) {
         _acroResult = acroResult;
@@ -85,7 +82,6 @@ static NSString *VariationCellIdentifier = @"VariationCell";
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-
 #pragma mark - Action Methods
 
 - (IBAction)segmentedControlClicked:(UISegmentedControl *)sender {
@@ -93,11 +89,11 @@ static NSString *VariationCellIdentifier = @"VariationCell";
     
     switch (clickedSegment) {
         case 0:
-            self.variations = [[[AcromineManager shared] sortAcroResultsBy:self.variations
+            self.variations = [[[AcroMineManager shared] sortAcroResultsBy:self.variations
                                                         bySortingMethod:AcromineManagerSortFrequency] copy];
             break;
         case 1:
-            self.variations = [[[AcromineManager shared] sortAcroResultsBy:self.variations
+            self.variations = [[[AcroMineManager shared] sortAcroResultsBy:self.variations
                                                         bySortingMethod:AcromineManagerSortDate] copy];
             break;
         default:

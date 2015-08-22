@@ -1,18 +1,10 @@
-//
-//  AcroResult.m
-//  RomyIlano_Macys
-//
-//  Created by Romy on 8/21/15.
-//  Copyright (c) 2015 Romy. All rights reserved.
-//
-
 #import "AcroResult.h"
 #import "AcromineManager.h"
 
 @implementation AcroResult
 
 + (NSDateFormatter *)dateFormatter {
-    return [[AcromineManager shared] acromineDateFormatter];
+    return [[AcroMineManager shared] acromineDateFormatter];
 }
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {

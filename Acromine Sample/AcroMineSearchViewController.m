@@ -1,11 +1,3 @@
-//
-//  ViewController.m
-//  RomyIlano_Macys
-//
-//  Created by Romy on 8/21/15.
-//  Copyright (c) 2015 Romy. All rights reserved.
-//
-
 #import "AcroMineSearchViewController.h"
 #import "AcroMineManager.h"
 #import <MBProgressHUD/MBProgressHUD.h>
@@ -21,7 +13,7 @@ static NSString *SearchCellIdentifier = @"SearchResultCell";
 
 @property (strong, nonatomic) MBProgressHUD *HUD;
 @property (nonatomic, strong) NSMutableArray *results;
-@property (nonatomic, strong) AcromineManager *manager;
+@property (nonatomic, strong) AcroMineManager *manager;
 
 @end
 
@@ -29,9 +21,9 @@ static NSString *SearchCellIdentifier = @"SearchResultCell";
 
 #pragma mark - accessors
 
-- (AcromineManager *)manager {
+- (AcroMineManager *)manager {
     if (!_manager) {
-        _manager = [AcromineManager shared];
+        _manager = [AcroMineManager shared];
     }
     return _manager;
 }
@@ -41,7 +33,7 @@ static NSString *SearchCellIdentifier = @"SearchResultCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
+    
     self.HUD = [[MBProgressHUD alloc] initWithView:self.view];
     [self.view addSubview:self.HUD];
     self.HUD.delegate = self;
@@ -60,11 +52,11 @@ static NSString *SearchCellIdentifier = @"SearchResultCell";
     
     switch (clickedSegment) {
         case 0:
-            self.results = [[[AcromineManager shared] sortAcroResultsBy:self.results
+            self.results = [[[AcroMineManager shared] sortAcroResultsBy:self.results
                                                         bySortingMethod:AcromineManagerSortFrequency] copy];
             break;
         case 1:
-            self.results = [[[AcromineManager shared] sortAcroResultsBy:self.results
+            self.results = [[[AcroMineManager shared] sortAcroResultsBy:self.results
                                                         bySortingMethod:AcromineManagerSortDate] copy];
             break;
         default:
@@ -118,7 +110,7 @@ static NSString *SearchCellIdentifier = @"SearchResultCell";
 #pragma mark - UITableViewDelegate Methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-  
+    
     AcroResult *result = self.results[indexPath.row];
     if (result.variations.count > 1) {
         [self performSegueWithIdentifier:kSegueResult sender:self];

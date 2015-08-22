@@ -1,14 +1,9 @@
-//
-//  AcromineTableViewCell.h
-//  RomyIlano_Macys
-//
-//  Created by Romy on 8/21/15.
-//  Copyright (c) 2015 Romy. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 @class AcroResult;
+/**
+ *  Customized acromine table view cell class
+ */
 @interface AcromineTableViewCell : UITableViewCell
 
 @property (strong, nonatomic) AcroResult *acroResult;

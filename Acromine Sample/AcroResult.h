@@ -1,14 +1,9 @@
-//
-//  AcroResult.h
-//  RomyIlano_Macys
-//
-//  Created by Romy on 8/21/15.
-//  Copyright (c) 2015 Romy. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <Mantle/Mantle.h>
 
+/**
+ *  Acroresult model class. we use the Mantle framework
+ */
 @interface AcroResult : MTLModel <MTLJSONSerializing>
 
 @property (strong, nonatomic) NSString *longForm;

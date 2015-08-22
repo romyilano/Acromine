@@ -1,14 +1,10 @@
-//
-//  AcroMineVariationsViewController.h
-//  RomyIlano_Macys
-//
-//  Created by Romy on 8/21/15.
-//  Copyright (c) 2015 Romy. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 @class AcroResult;
+
+/**
+ *  Variations view controller - none of the cells are selectable
+ */
 @interface AcroMineVariationsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) AcroResult *acroResult;

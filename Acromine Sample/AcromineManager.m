@@ -5,7 +5,7 @@
 
 NSString *AcromineManagerDomain = @"AcromineManagerDomain";
 
-@implementation AcromineManager
+@implementation AcroMineManager
 
 + (instancetype)shared {
     static id _shared = nil;
